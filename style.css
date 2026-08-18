@@ -1,0 +1,181 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: anek, sans-serif;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+.custom {
+  position:relative;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 1;
+}
+
+.custom img {
+  width: 100%;
+  height: auto;
+  display:block;
+}
+.amul-navbar {
+    background: #fff;
+    position: relative;
+  }
+ 
+  .amul-navbar .nav-link {
+    color: #222 ;
+    font-weight: 400;
+    font-size: 13px;
+    margin: 0 14px;
+  }
+ 
+  .amul-navbar .nav-link:hover {
+    color: #e30613 ;
+  }
+ 
+  .amul-logo {
+    font-family: 'Pacifico', cursive;
+    font-size: 32px;
+    color: #e30613;
+    font-weight: 700;
+    text-decoration: none;
+  }
+ 
+  .amul-hamburger {
+    font-size: 22px;
+    color: #222;
+    text-decoration: none;
+
+  }
+
+
+ .amul-shop {
+  background-color: #e30613;
+  border: none;
+  font-weight: 600;
+  border-radius: 50px;
+  
+}
+
+.amul-btn:hover {
+  background-color: #c70411;
+  transform: scale(1.05);
+}
+.amul-search {
+    position: relative;
+    transition: transform 0.2s ease-in-out;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    font-size: 15px;
+    color: gray;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+}
+
+.amul-search:hover {
+    transform: translateY(-2px);
+    background-color: #eb6b74;
+    color: #e30613;
+}
+
+
+.amul-search:hover {
+    transform: translateY(-2px);
+    background-color: #eb6b74;
+    color: #e30613;
+}
+
+.hero-selection {
+    width: 100%;
+    padding:0;
+    overflow: hidden;
+    position:relative;
+}
+
+.hero-selection img {
+    height: 500px;
+    object-fit: cover;
+}
+
+
+.hero-img {
+
+  clip-path: ellipse(100% 100% at 50% 50%);
+
+}
+
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;}
+
+.amul-discover-btn{
+    transition: transform 0.2s ease-in-out;
+    height: 40px;
+    font-size: 15px;
+    background-color: transparent;
+    color:white;
+     text-align: center;
+    overflow: hidden;
+    display: inline-block;
+    padding: 8px 20px;
+    border-radius: 5px;
+    border: 1px solid white
+
+
+}
+.btn-amul-discover:hover {
+     transform: translateY(-2px);
+    background-color: #eb6b74;
+    color:white;
+}
+
+.bottom-left {
+  position: absolute;
+    bottom: -2px;
+  left: 0;
+  width: 100%;
+  z-index: 3;
+  margin-bottom: 0 ;
+  pointer-events: none;
+}
+ .hero-curve {
+  width: 100%;
+  height: 100px;
+  line-height: 0;
+}
+
+.hero-curve svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+  transform: scaleX(-1);
+}
+.hero-dots {
+    position: absolute;
+    bottom: 18px;
+    left:17%;
+    transform: translateX(-50%);
+    z-index: 4;
+    display: flex;
+    gap: 8px;
+  }
+  .hero-dots span {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    border: 1.5px solid #e4002b;
+    display: inline-block;
+  }
+  .hero-dots span.active { background: #e4002b; }
